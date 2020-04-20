@@ -14,14 +14,14 @@ interface IFactory
     function createLoader(): ILoader;
 
     /**
-     * @param Whois $ehois
+     * @param Whois $whois
      * @return AsnModule
      */
-    function createAsnModule(Whois $ehois): AsnModule;
+    function createAsnModule(Whois $whois): AsnModule;
 
     /**
-     * @param Whois $ehois
+     * @param Whois $whois
      * @return TldModule
      */
-    function createTldModule(Whois $ehois): TldModule;
+    function createTldModule(Whois $whois): TldModule;
 }
